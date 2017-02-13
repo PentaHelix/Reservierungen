@@ -2,8 +2,8 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
+	//Removed for obvious reasons
 	$database = "Reservierung";
-
 	$conn = mysqli_connect($servername, $username, $password, $database);
 
 	if (!$conn) {
